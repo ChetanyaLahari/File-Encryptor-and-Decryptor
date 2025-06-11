@@ -1,0 +1,47 @@
+
+
+body {
+  
+font-family: 'Aries', sans-serif;
+
+
+  background: linear-gradient(to right, #232526, #414345);
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+input[type="file"], input[type="password"] {
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #218838;
+}
+
+#status {
+  margin-top: 20px;
+  font-weight: bold;
+}

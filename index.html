@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>File Encryption/Decryption Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>File Encryption / Decryption Tool</h1>
+    <input type="file" id="fileInput">
+    <input type="password" id="password" placeholder="Enter password">
+    <div class="buttons">
+      <button onclick="handleFile('encrypt')">Encrypt</button>
+      <button onclick="handleFile('decrypt')">Decrypt</button>
+    </div>
+    <p id="status"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
